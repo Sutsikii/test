@@ -1,0 +1,51 @@
+header{
+
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    z-index: 10;
+    width: 100%;
+    background-color: #202023;
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.92);
+        background-color: #202023;
+    
+        .logo{
+            font-size: 1.3rem;
+            margin-left: 10px;
+        }
+    
+        .nav-links ul{
+    
+            display: flex;
+            flex-direction: row;
+    
+            li{
+                margin: 0 20px;
+
+
+                a{
+                
+                    padding-bottom: 3px;
+                    
+                    &:hover{
+                        border-bottom: 1px solid #FFF;
+                    }
+
+                    &.currentPath{
+                        border-bottom: 1px solid #FFF;
+                    }
+                }
+            }
+
+        }
+    }
+}
+

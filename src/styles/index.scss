@@ -1,0 +1,13 @@
+// Settings CSS 
+
+@import './reset';
+@import './font';
+
+// Components
+
+@import './components/navbar';
+@import './components/form.scss';
+
+// Pages 
+
+@import './pages/contact.scss';
